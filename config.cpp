@@ -1,4 +1,4 @@
-﻿#include <zlog.h>
+
 #include <fstream>
 #include <rapidjson/document.h>
 #include <rapidjson/prettywriter.h>
