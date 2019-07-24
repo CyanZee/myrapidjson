@@ -217,27 +217,27 @@ bool Config::load(std::string path) {
 		
 	}
 	
-	dzlog_debug("config: %s", m_path.c_str());
-	dzlog_debug("version: %s", version.c_str());
-    dzlog_debug("host_name: %s", host_name.c_str());
-    dzlog_debug("user: %s", user.c_str());
-    dzlog_debug("password: %s", password.c_str());
-    dzlog_debug("save_path: %s", save_path.c_str());
-    dzlog_debug("feature1: %s", feature1.c_str());
-    dzlog_debug("feature2: %s", feature2.c_str());
-    dzlog_debug("feature3: %s", feature3.c_str());
-    dzlog_debug("feature4: %s", feature4.c_str());
-    dzlog_debug("feature5: %s", feature5.c_str());
-	dzlog_debug("feature6: %s", feature6.c_str());
-	dzlog_debug("feature7: %s", feature7.c_str());
-	dzlog_debug("feature8: %s", feature8.c_str());
-	dzlog_debug("rtmpUrl: %s", rtmpUrl.c_str());
-	dzlog_debug("rtspUrl: %s", rtspUrl.c_str());
-	dzlog_debug("httpUrl: %s", httpUrl.c_str());
-	dzlog_debug("fileUrl: %s", fileUrl.c_str());
-	dzlog_debug("th: %f", th);
-	dzlog_debug("width: %d", width);
-	dzlog_debug("height: %d", height);
+	printf("config: %s\n", m_path.c_str());
+	printf("version: %s\n", version.c_str());
+    printf("host_name: %s\n", host_name.c_str());
+    printf("user: %s\n", user.c_str());
+    printf("password: %s\n", password.c_str());
+    printf("save_path: %s\n", save_path.c_str());
+    printf("feature1: %s\n", feature1.c_str());
+    printf("feature2: %s\n", feature2.c_str());
+    printf("feature3: %s\n", feature3.c_str());
+    printf("feature4: %s\n", feature4.c_str());
+    printf("feature5: %s\n", feature5.c_str());
+	printf("feature6: %s\n", feature6.c_str());
+	printf("feature7: %s\n", feature7.c_str());
+	printf("feature8: %s\n", feature8.c_str());
+	printf("rtmpUrl: %s\n", rtmpUrl.c_str());
+	printf("rtspUrl: %s\n", rtspUrl.c_str());
+	printf("httpUrl: %s\n", httpUrl.c_str());
+	printf("fileUrl: %s\n", fileUrl.c_str());
+	printf("th: %f\n", th);
+	printf("width: %d\n", width);
+	printf("height: %d\n", height);
     return true;
 }
 template <typename PrettyWriter>
