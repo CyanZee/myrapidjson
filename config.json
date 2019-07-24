@@ -1,0 +1,22 @@
+{
+	"version":"version_name",
+    "host_name":"localhost",
+    "user":"Cyan",
+    "password":"123456",
+    "save_path":"/home/cyan/savefiles",
+    "feature1":"yyresult_pic",
+    "feature2":"yyarithmetic",
+    "feature3":"yymytest",
+    "feature4":"yyoperation",
+    "feature5":"yytaskProcess",
+    "feature6":"yypicSearch",
+    "feature7":"yypicFeature",
+    "feature8":"yynvr",
+    "rtmpUrl":"http://127.0.0.1:8080/structured-web/api/v01/device_states",
+    "rtspUrl":"http://127.0.0.1:8080/structured-web/api/v01/device_healthes",
+    "httpUrl":"http://127.0.0.1:8080/structured-web/api/v01/device_videodownload",
+    "fileUrl":"http://127.0.0.1:8080/structured-web/api/v01/device_videopath",
+    "th":0.5,
+    "width":1920,
+    "height":1080
+}
